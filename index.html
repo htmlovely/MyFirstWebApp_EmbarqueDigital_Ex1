@@ -28,6 +28,8 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="manifest" href="manifest.json">
+<script>navigator.serviceWorker.register("service-worker.js")</script> 
 
 </head>
 
@@ -416,6 +418,33 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!--Service Work -->
+  <script>
+    let newWorker;
+    /*function showUpdateBar() {
+      let snackbar = document.getElementById('snackbar');
+      snackbar.className = 'show';
+    }
+    /* The click event on the pop up notification
+    document.getElementById('reload').addEventListener('click', function () {
+      newWorker.postMessage({ action: 'skipWaiting' });
+    });*/
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(reg => {
+        reg.addEventListener('updatefound', () => {
+          // A wild service worker has appeared in reg.installing!
+          newWorker = reg.installing;
+        });
+      });
+      
+      let refreshing;
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (refreshing) return;
+        window.location.reload();
+        refreshing = true;
+      });
+    }
+  </script>
 </body>
 
 </html>
