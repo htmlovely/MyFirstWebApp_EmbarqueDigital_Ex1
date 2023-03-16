@@ -1,14 +1,14 @@
 {
-  "background_color": "#ffffff",
-  "description": "Atividade PWA, site para monitoramento de instituições escolares.",
+  "background_color": "#d69d9d",
+  "description": "gerando um manifest",
   "dir": "ltr",
-  "display": "browser",
-  "name": "edu",
-  "orientation": "portrait",
+  "display": "standalone",
+  "name": "edu-mywebapp.netlify",
+  "orientation": "any",
   "scope": "/",
-  "short_name": "edu-mainpage",
-  "start_url": "/index.html",
-  "theme_color": "#ffffff",
+  "short_name": "edu-mywebapp.netlify",
+  "start_url": "/",
+  "theme_color": "#dfd2d2",
   "categories": [
     "education"
   ],
@@ -20,6 +20,5 @@
       "sizes": "32x32"
     }
   ],
-  "shortcuts": [],
-  "lang": "pt"
+  "shortcuts": []
 }
