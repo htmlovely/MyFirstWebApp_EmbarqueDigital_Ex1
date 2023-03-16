@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "description": "Atividade PWA, site para monitoramento de instituições escolares.",
+  "dir": "ltr",
+  "display": "browser",
+  "name": "edu",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "edu-mainpage",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "categories": [
+    "education"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt"
+}
