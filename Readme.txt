@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Créditos do Template:
 
 Template Name: OnePage
 Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
