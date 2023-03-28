@@ -615,6 +615,7 @@ section {
   border: 2px solid #2487ce;
 }
 
+<<<<<<< HEAD
 .botinho .btn-learn-more button{
   border: none;
   background-color: white;
@@ -625,6 +626,8 @@ section {
   border: none;
   background-color: 0;n
 }*/
+=======
+>>>>>>> d1a7d788134286d9edf4e203cd2103602ac0b8e7
 .about .content .btn-learn-more:hover {
   background: #2487ce;
   color: #fff;
@@ -1695,8 +1698,11 @@ section {
   padding: 10px 12px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d1a7d788134286d9edf4e203cd2103602ac0b8e7
 .contact .php-email-form button[type=submit] {
   background: #2487ce;
   border: 0;
